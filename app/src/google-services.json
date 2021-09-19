@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "960874682823",
+    "project_id": "stylist-helper-53bb7",
+    "storage_bucket": "stylist-helper-53bb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960874682823:android:9d13e7be5c2acceb82e1e2",
+        "android_client_info": {
+          "package_name": "com.example.mypersonalwardrobe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960874682823-n0en4vhrtgcffbjpp16d35aa8fi886ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVf6QO2T7lcCCkXhpdp1q7R9HxgAoTcuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960874682823-n0en4vhrtgcffbjpp16d35aa8fi886ni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960874682823:android:ac650c7add5f240982e1e2",
+        "android_client_info": {
+          "package_name": "com.example.style_helper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960874682823-n0en4vhrtgcffbjpp16d35aa8fi886ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVf6QO2T7lcCCkXhpdp1q7R9HxgAoTcuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960874682823-n0en4vhrtgcffbjpp16d35aa8fi886ni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960874682823:android:c8eb8dbd8e2d1ab182e1e2",
+        "android_client_info": {
+          "package_name": "example.hasnagi.com.imagecaptureexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960874682823-n0en4vhrtgcffbjpp16d35aa8fi886ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVf6QO2T7lcCCkXhpdp1q7R9HxgAoTcuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960874682823-n0en4vhrtgcffbjpp16d35aa8fi886ni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960874682823:android:f45edaa726d7ffd782e1e2",
+        "android_client_info": {
+          "package_name": "net.smallacademy.cameraandgallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960874682823-n0en4vhrtgcffbjpp16d35aa8fi886ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVf6QO2T7lcCCkXhpdp1q7R9HxgAoTcuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960874682823-n0en4vhrtgcffbjpp16d35aa8fi886ni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
