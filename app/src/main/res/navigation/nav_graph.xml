@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/SignInFragment">
+
+    <fragment
+        android:id="@+id/SignInFragment"
+        android:name="com.example.mypersonalwardrobe.ui.customer.SignInFragment"
+        tools:layout="@layout/fragment_sign_in">
+
+        <action
+            android:id="@+id/action_SignInFragment_to_HomeFragment"
+            app:destination="@+id/HomeFragment" />
+        <action
+            android:id="@+id/action_SignInFragment_to_SignUpFragment"
+            app:destination="@+id/SignUpFragment" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/SignUpFragment"
+        android:name="com.example.mypersonalwardrobe.ui.customer.SignUpFragment"
+        tools:layout="@layout/fragment_sign_up">
+
+        <action
+            android:id="@+id/action_SignupFragment_to_HomeFragment"
+            app:destination="@+id/HomeFragment" />
+        <action
+            android:id="@+id/action_SignUpFragment_to_SignInFragment"
+            app:destination="@+id/SignInFragment" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.mypersonalwardrobe.ui.customer.HomeFragment"
+        android:label="Home fragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_GalleryFragment"
+            app:destination="@+id/GalleryFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_MyProfileFragment"
+        app:destination="@+id/MyProfileFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_StylistsFragment"
+            app:destination="@+id/StylistsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/GalleryFragment"
+        android:name="com.example.mypersonalwardrobe.ui.common.GalleryFragment"
+        android:label="@string/gallery_fragment_label"
+        tools:layout="@layout/fragment_gallery">
+
+        <action
+            android:id="@+id/action_GalleryFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+        <action
+            android:id="@+id/action_galleryFragment_to_galleryBottomSheet"
+            app:destination="@id/homeBottomSheet"
+            app:popUpTo="@id/GalleryFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/homeBottomSheet"
+        android:name="com.example.mypersonalwardrobe.ui.customer.GalleryBottomSheet"
+        android:label="HomeBottomSheet">
+        <action
+            android:id="@+id/action_homeBottomSheet_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/MyProfileFragment"
+        android:name="com.example.mypersonalwardrobe.ui.common.MyProfileFragment"
+        android:label="@string/gallery_fragment_label"
+        tools:layout="@layout/fragment_my_profile">
+
+    <action
+        android:id="@+id/action_MyProfileFragment_to_HomeFragment"
+        app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/StylistsFragment"
+        android:name="com.example.mypersonalwardrobe.ui.customer.StylistsFragment"
+        android:label="@string/gallery_fragment_label"
+        tools:layout="@layout/fragment_stylists">
+
+        <action
+            android:id="@+id/action_StylistsFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+</navigation>
