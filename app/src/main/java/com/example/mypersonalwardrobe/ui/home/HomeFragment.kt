@@ -1,4 +1,4 @@
-package com.example.mypersonalwardrobe.ui.customer
+package com.example.mypersonalwardrobe.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "361074204888",
+    "project_id": "login-c8f22",
+    "storage_bucket": "login-c8f22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361074204888:android:acc77bd7bb58bac114b7ad",
+        "android_client_info": {
+          "package_name": "com.example.mypersonalwardrobe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361074204888-or0kehh5h0156hk91i92kd0dk2lca3ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIqbk6L1C-X7S8_0ObLD3GCWOD84O244w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361074204888-or0kehh5h0156hk91i92kd0dk2lca3ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361074204888:android:2cc9768ee1d420fc14b7ad",
+        "android_client_info": {
+          "package_name": "com.learntodroid.firebaseauthloginregistermvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361074204888-or0kehh5h0156hk91i92kd0dk2lca3ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIqbk6L1C-X7S8_0ObLD3GCWOD84O244w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361074204888-or0kehh5h0156hk91i92kd0dk2lca3ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -7,12 +7,15 @@
 
     <fragment
         android:id="@+id/SignInFragment"
-        android:name="com.example.mypersonalwardrobe.ui.customer.SignInFragment"
+        android:name="com.example.mypersonalwardrobe.ui.auth.SignInFragment"
         tools:layout="@layout/fragment_sign_in">
 
         <action
             android:id="@+id/action_SignInFragment_to_HomeFragment"
             app:destination="@+id/HomeFragment" />
+        <action
+            android:id="@+id/action_SignInFragment_to_StylistHomeFragment"
+            app:destination="@+id/StylistHomeFragment" />
         <action
             android:id="@+id/action_SignInFragment_to_SignUpFragment"
             app:destination="@+id/SignUpFragment" />
@@ -22,11 +25,11 @@
 
     <fragment
         android:id="@+id/SignUpFragment"
-        android:name="com.example.mypersonalwardrobe.ui.customer.SignUpFragment"
+        android:name="com.example.mypersonalwardrobe.ui.auth.SignUpFragment"
         tools:layout="@layout/fragment_sign_up">
 
         <action
-            android:id="@+id/action_SignupFragment_to_HomeFragment"
+            android:id="@+id/action_SignUpFragment_to_HomeFragment"
             app:destination="@+id/HomeFragment" />
         <action
             android:id="@+id/action_SignUpFragment_to_SignInFragment"
@@ -37,7 +40,7 @@
 
     <fragment
         android:id="@+id/HomeFragment"
-        android:name="com.example.mypersonalwardrobe.ui.customer.HomeFragment"
+        android:name="com.example.mypersonalwardrobe.ui.home.HomeFragment"
         android:label="Home fragment"
         tools:layout="@layout/fragment_home">
 
@@ -55,7 +58,7 @@
 
     <fragment
         android:id="@+id/GalleryFragment"
-        android:name="com.example.mypersonalwardrobe.ui.common.GalleryFragment"
+        android:name="com.example.mypersonalwardrobe.ui.gallery.GalleryFragment"
         android:label="@string/gallery_fragment_label"
         tools:layout="@layout/fragment_gallery">
 
@@ -69,7 +72,7 @@
     </fragment>
     <dialog
         android:id="@+id/homeBottomSheet"
-        android:name="com.example.mypersonalwardrobe.ui.customer.GalleryBottomSheet"
+        android:name="com.example.mypersonalwardrobe.ui.gallery.GalleryBottomSheet"
         android:label="HomeBottomSheet">
         <action
             android:id="@+id/action_homeBottomSheet_to_HomeFragment"
@@ -77,7 +80,7 @@
     </dialog>
     <fragment
         android:id="@+id/MyProfileFragment"
-        android:name="com.example.mypersonalwardrobe.ui.common.MyProfileFragment"
+        android:name="com.example.mypersonalwardrobe.ui.myProfile.MyProfileFragment"
         android:label="@string/gallery_fragment_label"
         tools:layout="@layout/fragment_my_profile">
 
@@ -88,12 +91,17 @@
 
     <fragment
         android:id="@+id/StylistsFragment"
-        android:name="com.example.mypersonalwardrobe.ui.customer.StylistsFragment"
+        android:name="com.example.mypersonalwardrobe.ui.stylists.StylistsFragment"
         android:label="@string/gallery_fragment_label"
         tools:layout="@layout/fragment_stylists">
 
         <action
             android:id="@+id/action_StylistsFragment_to_HomeFragment"
             app:destination="@id/HomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/StylistHomeFragment"
+        android:name="com.example.mypersonalwardrobe.ui.home.StylistHomeFragment"
+        tools:layout="@layout/fragment_stylist_home">
     </fragment>
 </navigation>

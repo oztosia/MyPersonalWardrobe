@@ -1,5 +1,4 @@
-package com.example.mypersonalwardrobe.ui.customer
-
+package com.example.mypersonalwardrobe.ui.myProfile
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,14 +8,13 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.mypersonalwardrobe.R
 import com.example.mypersonalwardrobe.databinding.FragmentMyProfileBinding
-import com.example.mypersonalwardrobe.databinding.FragmentStylistsBinding
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-class StylistsFragment: Fragment() {
+class MyProfileFragment : Fragment() {
 
-    private var _binding: FragmentStylistsBinding? = null
+    private var _binding: FragmentMyProfileBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -27,7 +25,7 @@ class StylistsFragment: Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentStylistsBinding.inflate(inflater, container, false)
+        _binding = FragmentMyProfileBinding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -36,7 +34,7 @@ class StylistsFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonOK.setOnClickListener {
-            findNavController().navigate(R.id.action_StylistsFragment_to_HomeFragment)
+            findNavController().navigate(R.id.action_MyProfileFragment_to_HomeFragment)
         }
     }
 

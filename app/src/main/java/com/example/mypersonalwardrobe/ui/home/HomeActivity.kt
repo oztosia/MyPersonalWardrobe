@@ -1,4 +1,4 @@
-package com.example.mypersonalwardrobe.ui.common
+package com.example.mypersonalwardrobe.ui.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,6 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.mypersonalwardrobe.R
 import com.example.mypersonalwardrobe.databinding.ActivityHomeBinding
-import com.google.android.material.snackbar.Snackbar
 
 class HomeActivity : AppCompatActivity() {
 
